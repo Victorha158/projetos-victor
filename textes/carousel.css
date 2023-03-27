@@ -1,0 +1,71 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+ background: rgb(2,0,36);
+ background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(255,0,146,1) 100%);
+ background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(255,0,146,1) 100%);  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(255,0,146,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ff0092",GradientType=1);
+}
+p{
+  color: #fff;
+}
+
+
+.barraDenavegaçao{
+  display: flex;
+justify-content: center;
+gap: 10px;
+padding: 10px 10px;
+background-color: #2f004b;
+color: #fff;
+}
+.barraDenavegaçao p{
+  cursor: pointer;
+  
+}
+img{
+  width: 14%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 285px; /* ou qualquer outra altura que você queira */
+  
+}
+
+.titulosl1{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: #fff;
+  
+}
+.swiper-wrapper {
+  cursor:pointer;
+  
+}
+
+.swiper-container{
+   
+  padding-top: 10px;
+  overflow-x:hidden;
+
+}
+.swiper-slide{ 
+  padding-top: 15px;
+  padding-bottom: 10px ;
+  background-color: #2f004b;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translatex(100px);
+  transition: transform 2s ease;
+  display: inline;
+ 
+}
+
+
+
